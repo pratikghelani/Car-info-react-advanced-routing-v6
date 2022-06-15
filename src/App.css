@@ -24,7 +24,9 @@
   color: white;
 }
 
-
+p,h6{
+  margin-bottom: 0px;
+}
 body{
   background-color: #282c34;
 }

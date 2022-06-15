@@ -3,21 +3,18 @@ import React from 'react'
 export default function Carinfo(prop) {
   return (
     <>
-      <div class="container mt-5 mb-5">
-        <div class="row">
-
-
+      <div class="container mt-3 ">
+        <div class="row bg-white" >
           <div className='col-3'>
-            <div className="card" style={{ width: '18rem' }}>
+          
+              <div className="card-body mt-4">  
               <img src={prop.img} className="card-img-top" alt="..." />
-              <div className="card-body">
                 <h6 className="fs-2 text-dark"> {prop.name}  <p>{prop.brandname}</p></h6>
               </div>
-            </div>
           </div>
 
           <div className='col-9 '>
-            <div className='card p-2'>
+            <div className=' p-2'>
               <div className='text-center'><h3> {prop.name} ({prop.fullname})</h3></div>      
               <table class="table">
                   <thead>
@@ -48,7 +45,10 @@ export default function Carinfo(prop) {
                       <td>Rs 10L</td>
                     </tr>
                     <tr>
-                   
+                    <td>A4</td>
+                       <th>1000CC</th>
+                        <th>30 Liter</th>
+                      <td>Rs 8L</td>
                     </tr>
                   </tbody>
               </table>
