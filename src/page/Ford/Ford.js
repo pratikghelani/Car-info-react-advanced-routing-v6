@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
-import { Link,Outlet, Route} from "react-router-dom";
-import Carinfo from "../Carinfo"
+import { Link} from "react-router-dom";
+
 const Ford = (props) => {
     return (
 
@@ -52,13 +52,6 @@ const Ford = (props) => {
                     </div>
                     <div className='row'>
 
-                    <Outlet />
-                    {/* <Routes>
-                        <Route path="Ford/Figo" element={<Carinfo  name="Figo"  fullname="Volkswagen India Private Limited"  img="https://imgd.aeplcdn.com/664x374/n/cw/ec/35463/figo-exterior-right-front-three-quarter-151689.jpeg" />}/>
-                        <Route path="Ford/Aspire" element={<Carinfo  name="Aspire"  fullname="Volkswagen India Private Limited"  img="https://imgd.aeplcdn.com/272x153/n/cw/ec/35583/aspire-exterior-right-front-three-quarter-2.jpeg" />}/>
-                        <Route path="Ford/EcoSport" element={<Carinfo  name="EcoSport"  fullname="Volkswagen India Private Limited"  img="https://imgd.aeplcdn.com/664x374/n/cw/ec/40369/ecosport-exterior-left-front-three-quarter.jpeg" />}/>
-                        <Route path="Ford/Freestyle" element={<Carinfo  name="Freestyle"  fullname="Volkswagen India Private Limited"  img="https://imgd.aeplcdn.com/664x374/n/cw/ec/32698/freestyle-exterior-right-front-three-quarter-2.jpeg" />}/>
-                    </Routes> */}
                         </div>
                 </div>
     );

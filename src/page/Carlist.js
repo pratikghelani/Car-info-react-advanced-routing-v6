@@ -1,11 +1,7 @@
 import React from 'react'
 import '../App.css';
 import { Link } from "react-router-dom";
-import { Outlet, Routes, Route} from "react-router-dom";
-import Tata from "./Tata/Tata"
-import Mahindra from "./Mahindra/Mahindra.js"
-import Volkswagen from "./Volkswagen/Volkswagen.js"
-import Ford from "./Ford/Ford.js"
+import { Outlet} from "react-router-dom";
 
 export default function Carlist() {
   return (

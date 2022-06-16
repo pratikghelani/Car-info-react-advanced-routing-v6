@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function Carinfo(prop) {
   return (
     <>
@@ -12,7 +11,6 @@ export default function Carinfo(prop) {
                 <h6 className="fs-2 text-dark"> {prop.name}  <p>{prop.brandname}</p></h6>
               </div>
           </div>
-
           <div className='col-9 '>
             <div className=' p-2'>
               <div className='text-center'><h3> {prop.name} ({prop.fullname})</h3></div>      

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link,Outlet, Route} from "react-router-dom";
-import Carinfo from "../Carinfo"
+
 import '../../App.css';
 export default function Mahindra(props) {
   return (
@@ -52,12 +52,7 @@ export default function Mahindra(props) {
 
                         <div className='row'>
                         <Outlet />
-                            {/* <Routes>
-                            <Route path="Mahindra/Verito" element={<Carinfo fullname="Mahindra & Mahindra Limited"  name="Verito" img="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/E-Verito/3526/1603712637421/front-left-side-47.jpg"/>}/>
-                            <Route path="Mahindra/Thar" element={<Carinfo fullname="Mahindra & Mahindra Limited"  name="Thar" img="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/8076/1601635839903/front-left-side-47.jpg"/>}/>
-                            <Route path="Mahindra/Bolero" element={<Carinfo  fullname="Mahindra & Mahindra Limited" name="Bolero" img="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Bolero-Neo/8506/1626171866869/front-left-side-47.jpg"/>}/>
-                            <Route path="Mahindra/SUV500" element={<Carinfo  fullname="Mahindra & Mahindra Limited" name="SUV500" img="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/XUV700/8620/1633939302512/front-left-side-47.jpg"/>}/>
-                        </Routes> */}
+                        
                         </div>
                     </div>
 

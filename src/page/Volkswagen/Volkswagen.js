@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../App.css';
-import { Link,Outlet, Route} from "react-router-dom";
-import Carinfo from "../Carinfo"
+import { Link,Outlet} from "react-router-dom";
 export default function Volkswagen(props) {
   return (
     <div class="container mt-3">
@@ -48,15 +47,8 @@ export default function Volkswagen(props) {
                         </div>
                         <div className='row'>
                         <Outlet />
-                            {/* <Routes>
-                                <Route path="Volkswagen/Virtus" element={<Carinfo fullname="Ford Motor Private Limited" name="Virtus" img="https://imgd.aeplcdn.com/664x374/n/cw/ec/101055/virtus-exterior-right-front-three-quarter.jpeg"/>}/>
-                                <Route path="Volkswagen/Polo" element={<Carinfo fullname="Ford Motor Private Limited" name="Polo" img="https://imgd.aeplcdn.com/664x374/n/cw/ec/29628/polo-exterior-right-front-three-quarter-2.jpeg"/>}/>
-                                <Route path="Volkswagen/Taigun" element={<Carinfo fullname="Ford Motor Private Limited" name="Taigun" img="https://imgd.aeplcdn.com/664x374/n/cw/ec/45057/taigun-exterior-right-front-three-quarter-2.jpeg"/>}/>
-                                <Route path="Volkswagen/Passat" element={<Carinfo fullname="Ford Motor Private Limited" name="Passat" img="https://imgd.aeplcdn.com/664x374/cw/ec/22548/Volkswagen-Passat-Headlamps-135233.jpg"/>}/>
-                            </Routes> */}
                         </div>
                 </div>
             </div>
-
   )
 }

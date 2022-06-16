@@ -14,41 +14,6 @@ function App() {
      <>
         <BrowserRouter>
         <div>
-
-        {/* <Router>
-                <Routes>
-                    <Route path="/" element={<WebHome/>}/>
-                    <Route path="/jlogin" element={<Login/>}/>
-                    <Route path="/jsignup" element={<SignUp/>}/>
-                    <Route path='/jobs' element={<JobeHome/>}>
-                        <Route path='job' element={<Jobs/>}/>
-                        <Route path='jobs/:id' element={<JobDetails/>}/>
-                        <Route path='profile' element={<Resume/>}/>
-                        <Route path='resume/:id' element={<ShowResume/>}/>
-                        <Route path='applyed' element={<Applyed/>}/>
-                    </Route>
-                    {/*Company*/}
-                    {/* <Route path="/clogin" element={<Clogin/>}/>
-                    <Route path="/csignup" element={<CSignup/>}/>
-                    <Route path='/chome' element={<ComapanyHome/>}>
-                        <Route path='' element={<AllDetails/>}/>
-                        <Route path='creport' element={<CreateJob/>}/>
-                        <Route path='compnaysjob' element={<CompanysJob/>}/>
-                        <Route path='alljobs' element={<ShowCompanyJob/>}/>
-                    </Route>
-                    <Route path='*' element={<NotFound/>}/>
-                    {/*Admin Routes*/}
-                   {/*</div>* <Route path='/adminl' element={<AdminLogin/>}/>
-                    <Route path='/admin' element={<AdminSidebar/>}>
-                        <Route path='home' element={<AdminHome />}  />
-                        <Route path='jobs' element={<AdminJobs />}  />
-                        <Route path='user' element={<AllUSer />}  />
-                        <Route path='company' element={<AllCompanys />}  />
-                    </Route>
-                </Routes>
-            </Router> */}
-
-            
           <Routes>
               <Route path="/" element={<Carlist/>}>
                     <Route path="/Tata" element={<Tata brandname="TATA"/>}>
